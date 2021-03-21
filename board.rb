@@ -8,7 +8,7 @@ class Board
 
   # ask user to choose the size of the board
   def size_board
-    puts "Choose the size A of your board : "
+    puts "First, Choose the size A of your board (standard is 3): "
     print "Size A : "
     gets.chomp
   end
