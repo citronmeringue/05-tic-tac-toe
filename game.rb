@@ -13,7 +13,7 @@ class Game
   def play
     puts "The first player is randomly chosen ! "
 
-    puts "What is the name of the first player ? (Will play with marker X)" 
+    puts "What is the name of the first player ? (Will play with marker X)"
     @player_X.name = gets.chomp
     puts "What is the name of the second player ? (Will play with marker O)"
     @player_O.name = gets.chomp
